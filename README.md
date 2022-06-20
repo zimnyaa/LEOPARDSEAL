@@ -29,3 +29,5 @@ optional arguments:
 required arguments:
   -s SO, --so SO        path to the .SO library
 ```
+
+The loader is quite unstable at the moment, but it's nothing a quick 15-minute debugging session won't fix ;)
