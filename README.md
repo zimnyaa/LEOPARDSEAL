@@ -2,6 +2,8 @@
 LEOPARDSEAL is a simple Linux in-memory .so loader created for practicing techniques described in https://tishina.in/execution/linux-evasion-primitives and maybe even some real-world usage.
 
 Currently, when preloading itself, it runs two copies, which I consider a good thing. You can tamper with the function used to start the process to change this behaviour.
+
+I use `sliver> generate -o linux -f shared --run-at-load` to create end payloads for this. 
 # usage
 `LEOPARDSEAL` is written to be used to create several loader stages, either with run-at-load chaining or without:
 ![lseal_signals](https://user-images.githubusercontent.com/502153/174596860-f12e6138-e67e-44de-9ade-0e9e1f5f3ccc.PNG)
