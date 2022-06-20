@@ -5,7 +5,7 @@ Currently, when preloading itself, it runs two copies, which I consider a good t
 
 I use `sliver> generate -o linux -f shared --run-at-load` to create end payloads for this. 
 # usage
-`LEOPARDSEAL` is written to be used to create several loader stages, either with run-at-load chaining or without:
+`LEOPARDSEAL` is written to be used to create several loader stages, either with run-at-load chaining or with signaling:
 ![lseal_signals](https://user-images.githubusercontent.com/502153/174596860-f12e6138-e67e-44de-9ade-0e9e1f5f3ccc.PNG)
 ![lseal_nnosignals](https://user-images.githubusercontent.com/502153/174596871-38c34f72-0220-4098-b2e7-bdaa7d114436.PNG)
 
