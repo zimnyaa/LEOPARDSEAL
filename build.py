@@ -190,7 +190,7 @@ sendtemplate = """
 """
 
 nosignaltemplate = """
-  var output, returncode = startProcess(obf("%PROCNAME%"), env=dataenv)
+  var procownd = startProcess(obf("%PROCNAME%"), env=dataenv)
 """
 
 if args.signal:
